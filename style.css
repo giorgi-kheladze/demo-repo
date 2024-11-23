@@ -1,5 +1,29 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+body .container #button {
+  width: 50px;
+}
+body .container #button a {
+  width: 100%;
+  padding: 5px 15px;
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

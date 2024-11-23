@@ -1,1 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    .container{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        #button{
+            width: 50px;
+
+            a{
+                width: 100%;
+                padding: 5px 15px;
+                background-color: grey;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+    }
+}
